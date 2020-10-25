@@ -22,15 +22,24 @@ header,
 .scarlett,
 .augusta,
 .kriss,
-.calendar  {
+.calendar,
+footer  {
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
+header,
+.augusta,
+.irma,
+.kriss,
+.calendar,
+footer
+ {
+  display: flex;
+}
 /*Header*/
 header {
   background-image: url(images/circus_header.jpg);
-  display: flex;
   flex-direction: column;
   justify-content: center;
 }
@@ -100,13 +109,6 @@ nav ul {
   width: 500px;
 }
 /*section Augusta/section kriss/section irma/section calendar */
-.augusta,
-.irma,
-.kriss,
-.calendar
- {
-  display: flex;
-}
 .augusta {
   background-color: #140001;
   justify-content: space-between;
@@ -167,4 +169,12 @@ nav ul {
  .text .text-two {
    margin-right: 50px;
  }
- 
+ /*Footer*/
+footer {
+  background-image: url(images/contact.jpg);
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  width: 700px;
+}
