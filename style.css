@@ -1,0 +1,39 @@
+/*Global*/
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: #fff;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+/*Header*/
+header {
+  background-image: url(images/circus_header.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/*Nav*/
+h1 {
+  margin-top: 230px;
+  margin-bottom: 220px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0e0d0dd0;
+  padding: 20px;
+  font-weight: 800;
+}
