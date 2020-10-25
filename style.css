@@ -96,21 +96,27 @@ nav ul {
   position: relative;
   width: 500px;
 }
-/*section Augusta/section kriss */
-.augusta {
+/*section Augusta/section kriss/section irma */
+.augusta,
+.irma,
+.kriss {
   background-color: #140001;
   display: flex;
   justify-content: space-between;
 }
 .kriss {
   background-color: #350706;
-  display: flex;
-  justify-content: space-between;
   flex-direction: row-reverse;
   height: 100vh;
 }
+.irma {
+  background-color: #000;
+}
 .kriss .images img {
   width: 110%;
+}
+.irma .images img {
+  width: 100%;
 }
 .augusta .images {
   width: 35%;
@@ -119,7 +125,9 @@ nav ul {
 .kriss .text .text-one,
  .text .text-two,
 .augusta .text .text-one,
- .text .text-two {
+ .text .text-two,
+.irma .text .text-one,
+.text .text-two  {
   width: 500px;
   margin-left: 110px;
   margin-top: 110px; 
