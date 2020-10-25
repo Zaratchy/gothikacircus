@@ -17,15 +17,18 @@ a {
 li {
   list-style-type: none;
 }
+header,
+.scarlett {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
 /*Header*/
 header {
   background-image: url(images/circus_header.jpg);
-  background-size: cover;
-  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
 }
 
 /*Nav*/
@@ -43,9 +46,6 @@ nav ul {
 /*Section Scarlett*/
 .scarlett {
   background-image: url(images/aerial.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
 }
 .scarlett .text-one {
   float: right;
@@ -59,4 +59,39 @@ nav ul {
   padding-top: 450px;
   margin-left: 90px;
   width: 350px;
+}
+/*section tristan-and-yseult*/
+.tristan-and-yseult {
+  background-color: #000000;
+  padding: 100px;
+  padding-top: 0;
+}
+.images {
+  display: flex;
+  margin: 30px;
+}
+.img-man img{
+  margin-top: 170px;
+  margin-right: 100px;
+  float: right;
+  width: 75%;
+}
+.img-woman img{
+  margin-left: 150px;
+  width: 90%;
+}
+.tristan-and-yseult .text-one {
+  position: relative;
+  text-align: right;
+  top: 240px;
+  line-height: 50px;
+}
+.tristan-and-yseult .text-one p {
+  padding-left: 450px;
+}
+.tristan-and-yseult .text-two {
+  top: 700px;
+  bottom: 100px;
+  position: relative;
+  width: 500px;
 }
