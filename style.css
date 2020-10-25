@@ -4,6 +4,7 @@
   padding: 0;
 }
 h1,
+H2,
 p,
 li,
 a {
@@ -19,7 +20,9 @@ li {
 }
 header,
 .scarlett,
-.augusta {
+.augusta,
+.kriss,
+.calendar  {
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -96,31 +99,59 @@ nav ul {
   position: relative;
   width: 500px;
 }
-/*section Augusta/section kriss/section irma */
+/*section Augusta/section kriss/section irma/section calendar */
 .augusta,
 .irma,
-.kriss {
-  background-color: #140001;
+.kriss,
+.calendar
+ {
   display: flex;
+}
+.augusta {
+  background-color: #140001;
   justify-content: space-between;
-}
-.kriss {
-  background-color: #350706;
-  flex-direction: row-reverse;
-  height: 100vh;
-}
-.irma {
-  background-color: #000;
-}
-.kriss .images img {
-  width: 110%;
-}
-.irma .images img {
-  width: 100%;
 }
 .augusta .images {
   width: 35%;
   margin-bottom: 0;
+}
+.irma {
+  background-color: #000;
+}
+.irma .images img {
+  width: 100%;
+}
+.kriss {
+  background-color: #350706;
+  flex-direction: row-reverse;
+}
+.kriss .images img {
+  width: 110%;
+  display: flex;
+}
+.calendar {
+  background-color: #140001;
+  flex-direction: column;
+  justify-content: center;
+}
+.images-and-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.calendar .images-and-text img {
+  width: 20%;
+}
+.calendar .images-and-text p {
+  width: 550px;
+  margin-top: 50px;
+}
+.calendar h2 {
+  background-color: #350706;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 30px;
+  padding: 30px;
 }
 .kriss .text .text-one,
  .text .text-two,
@@ -136,3 +167,4 @@ nav ul {
  .text .text-two {
    margin-right: 50px;
  }
+ 
