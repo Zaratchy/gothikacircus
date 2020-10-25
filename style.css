@@ -18,7 +18,8 @@ li {
   list-style-type: none;
 }
 header,
-.scarlett {
+.scarlett,
+.augusta {
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -94,4 +95,20 @@ nav ul {
   bottom: 100px;
   position: relative;
   width: 500px;
+}
+/*section Augusta */
+.augusta {
+  background-color: #140001;
+  display: flex;
+  justify-content: space-between;
+}
+.augusta .images {
+  width: 35%;
+  margin-bottom: 0;
+}
+.augusta .text .text-one,
+ .text .text-two {
+  width: 500px;
+  margin-left: 110px;
+  margin-top: 110px;  
 }
